@@ -1,0 +1,33 @@
+{
+  "title": "Ludwig Lewysohn, Die Zoologie des Talmuds: reading edition with English translation",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "description": "<p>German text and English translation of the 1858 study of the animals of the Talmud.</p><p>OCR with the Hebrew checked against the scan; English translation with AI models.</p><p>Read online: <a href=\"https://openseforim.org/lewysohn/\">https://openseforim.org/lewysohn/</a></p>",
+  "creators": [
+    {
+      "name": "Brand, Ezra"
+    }
+  ],
+  "license": "cc-by-sa-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Judaica",
+    "Hebrew",
+    "digital humanities",
+    "translation",
+    "digital edition"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://openseforim.org/lewysohn/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://archive.org/details/diezoologiedesta00lewyuoft",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-book"
+    }
+  ]
+}

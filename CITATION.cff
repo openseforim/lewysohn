@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this edition, please cite it as below."
+title: "Ludwig Lewysohn, Die Zoologie des Talmuds: reading edition with English translation"
+type: dataset
+authors:
+  - family-names: Brand
+    given-names: Ezra
+abstract: "German text and English translation of the 1858 study of the animals of the Talmud. OCR with the Hebrew checked against the scan; English translation with AI models."
+license: CC-BY-SA-4.0
+url: "https://openseforim.org/lewysohn/"
+repository-code: "https://github.com/openseforim/lewysohn"
+keywords:
+  - "Judaica"
+  - "Hebrew"
+  - "digital humanities"
+  - "translation"
+  - "digital edition"
