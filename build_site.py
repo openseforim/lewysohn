@@ -410,8 +410,7 @@ translation by Claude Opus 5.5 (rules {d["rules"]}). Hebrew-script words are not
 Arabic and Greek words show a transliteration when you point at them. Dotted words are
 abbreviations: point at them for the expansion, from a table reviewed by hand
 (<a href="abbreviations.html">table</a>), added by a program after translation. “p. 69” links to
-the scan of that page. Numbers link to the footnotes below. Machine output: check the scan before
-you cite.</p></details>
+the scan of that page. Numbers link to the footnotes below.</p></details>
 {TOGGLES.format(cn=CN_TOGGLE if names else "")}
 <div class="scans" aria-label="Scans">{thumbs}</div>
 <div class="cols-head row"><div class="cell de">German (Lewysohn)</div><div class="cell en">English</div></div>
@@ -432,15 +431,14 @@ def index_html() -> str:
 <h1>Ludwig Lewysohn, <i>Die Zoologie des Talmuds</i></h1>
 <p class="lede">Frankfurt am Main, 1858: the first systematic collection of the Talmudic and
 Midrashic material on animals, in German (set in Fraktur) with Hebrew, Aramaic, Greek and Latin.
-This reading edition has the whole book, pp. 1–400 and the front matter, in a machine
-transcription and English translation, made to see what current tools can do. The companion project for plants is
+This reading edition has the whole book, pp. 1–400 and the front matter, with an English translation. The companion project for plants is
 <a href="https://openseforim.org/loew/">Löw, <i>Die Flora der Juden</i></a>.</p>
 <p class="lede"><b>New:</b> <a href="{FACTCHECK}">Talmud zoology fact-check</a>, the Talmud's statements
 on animals (and Lewysohn's comments on them) checked against modern zoology, with links to the §§ here.</p>
 <ul class="docs">{items}</ul>
 <h2>What this is</h2>
 <ul class="plain">
-<li>The transcription and the translation are machine output (transcription: Claude Opus 5.5
+<li>The transcription and the translation are made with AI models (transcription: Claude Opus 5.5
 and, from p. 64 on, Sonnet 5.5; Hebrew read a second time and corrected by a vote of three
 checks; translation: Opus 5.5). Two pages (pp. 68 and 70) were checked by hand.</li>
 <li>The book has no list of abbreviations. They are expanded from a table built from the text and
@@ -451,7 +449,7 @@ certain.</li>
 </ul>
 </main>"""
     return page_html("Lewysohn, Zoologie des Talmuds · reading edition", body,
-                     "Machine transcription and English translation of pages of Ludwig Lewysohn, Die Zoologie des Talmuds (1858)")
+                     "German text and English translation of Ludwig Lewysohn, Die Zoologie des Talmuds (1858)")
 
 
 def abbreviations_html() -> str:
