@@ -22,7 +22,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 OUT = ROOT / "docs"
-REPO = "https://github.com/EzraBrand/lewysohn-zoologie"
+REPO = "https://github.com/openseforim/lewysohn"
 FACTCHECK = "https://ezrabrand.github.io/talmud-zoology-factcheck/"  # companion project
 OCR_SOURCE = "or-claude-opus-5.5@low+ital"
 TRANSLATION = f"claude-opus-5.5@medium-{T.RULES_VERSION}"
@@ -434,7 +434,7 @@ def index_html() -> str:
 Midrashic material on animals, in German (set in Fraktur) with Hebrew, Aramaic, Greek and Latin.
 This reading edition has the whole book, pp. 1–400 and the front matter, in a machine
 transcription and English translation, made to see what current tools can do. The companion project for plants is
-<a href="https://ezrabrand.github.io/low-flora/">Löw, <i>Die Flora der Juden</i></a>.</p>
+<a href="https://openseforim.org/loew/">Löw, <i>Die Flora der Juden</i></a>.</p>
 <p class="lede"><b>New:</b> <a href="{FACTCHECK}">Talmud zoology fact-check</a>, the Talmud's statements
 on animals (and Lewysohn's comments on them) checked against modern zoology, with links to the §§ here.</p>
 <ul class="docs">{items}</ul>

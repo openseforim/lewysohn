@@ -5,10 +5,10 @@ Darstellung der rabbinischen Zoologie* (Frankfurt a. M.: Baer, 1858; XII, 400 pp
 systematic collection of the Talmudic and Midrashic material on animals.
 
 Same pipeline, rules and output as my Löw project,
-[low-flora](https://github.com/EzraBrand/low-flora) (Löw, *Die Flora der Juden*). Work in
+[low-flora](https://github.com/openseforim/loew) (Löw, *Die Flora der Juden*). Work in
 progress: small steps, each checked by hand before the next.
 
-**Reading edition (web):** https://ezrabrand.github.io/lewysohn-zoologie/ — German and English side
+**Reading edition (web):** https://openseforim.org/lewysohn/ — German and English side
 by side, scans linked from each page mark, Arabic and Greek transliterations as tooltips, numbered
 footnotes. Built by `build_site.py` into `docs/` (GitHub Pages serves `main:/docs`).
 
