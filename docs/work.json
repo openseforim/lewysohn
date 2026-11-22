@@ -6,11 +6,15 @@
   "title": "Ludwig Lewysohn, Die Zoologie des Talmuds",
   "short_title": "Zoologie des Talmuds",
   "author": "Ludwig Lewysohn (1819–1901)",
-  "status_label": "Translation in progress",
+  "status_label": "Draft: the whole book",
   "summary": "German text and English translation of the 1858 study of the animals of the Talmud.",
   "base_edition": {
     "label": "Frankfurt am Main 1858",
-    "scan_url": "https://archive.org/details/diezoologiedesta00lewyuoft"
+    "scan_url": "https://archive.org/details/diezoologiedesta00lewyuoft",
+    "scan_rights": {
+      "name": "Public Domain Mark 1.0",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
   },
   "method": "OCR with the Hebrew checked against the scan; English translation with AI models.",
   "cite": "Ludwig Lewysohn, Die Zoologie des Talmuds, German text with English translation, ed. Ezra Brand. Open Seforim",

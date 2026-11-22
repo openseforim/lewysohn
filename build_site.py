@@ -418,9 +418,7 @@ you cite.</p></details>
 {"".join(rows)}
 {notes_html}
 </main>
-<a class="totop" href="#" aria-label="Back to top">↑ Top</a>
-<footer>Source: <a href="https://nbn-resolving.org/urn:nbn:de:hebis:30:1-113735">Frankfurt UB, Freimann
-collection</a>, Public Domain Mark 1.0 · Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a> · <a href="{REPO}">{REPO.split("//")[1]}</a></footer>"""
+<a class="totop" href="#" aria-label="Back to top">↑ Top</a>"""
     return page_html(f"{doc['title']} · Lewysohn, Zoologie des Talmuds", body, doc["sub"])
 
 
@@ -451,8 +449,7 @@ certain.</li>
 <li>Each page links to the scan: please check it before citing anything.</li>
 <li>Code, data, method and costs: <a href="{REPO}">{REPO.split("//")[1]}</a>.</li>
 </ul>
-</main>
-<footer>Scans: Frankfurt UB, Freimann collection, Public Domain Mark 1.0. Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a>.</footer>"""
+</main>"""
     return page_html("Lewysohn, Zoologie des Talmuds · reading edition", body,
                      "Machine transcription and English translation of pages of Ludwig Lewysohn, Die Zoologie des Talmuds (1858)")
 
