@@ -343,8 +343,9 @@ minutes with 4 workers per model).
 
 ## License
 
-The code and everything added in this repository (transcriptions, gold pages, translations and
-documentation) are under the [MIT License](LICENSE), © 2026 Ezra Brand.
+Everything added in this repository apart from the code (transcriptions, gold pages, translations
+and documentation) is under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE-TEXT`); the code is under the
+[MIT License](LICENSE). © 2026 Ezra Brand.
 
 Lewysohn's *Die Zoologie des Talmuds* (1858) is in the public domain; the scans are by the
 Frankfurt University Library (Freimann collection), Public Domain Mark 1.0, and are not stored here.
