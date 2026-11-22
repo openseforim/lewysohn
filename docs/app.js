@@ -12,7 +12,7 @@
     th.addEventListener('change',function(){
       if(th.value) document.documentElement.setAttribute('data-theme',th.value);
       else document.documentElement.removeAttribute('data-theme');
-      store.set('lz-theme',th.value);});}
+      store.set('os-theme',th.value);});}
   var f=document.getElementById('filter');
   if(f){f.addEventListener('input',function(){var q=f.value.toLowerCase();
     document.querySelectorAll('table.abbr tbody tr').forEach(function(tr){
