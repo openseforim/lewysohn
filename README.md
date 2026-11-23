@@ -1,5 +1,7 @@
 # lewysohn-zoologie
 
+Cite as: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24458143.svg)](https://doi.org/10.5281/zenodo.24458143) (Zenodo; this DOI always points to the newest release)
+
 OCR and English translation of Ludwig Lewysohn, *Die Zoologie des Talmuds: eine umfassende
 Darstellung der rabbinischen Zoologie* (Frankfurt a. M.: Baer, 1858; XII, 400 pp.), the first
 systematic collection of the Talmudic and Midrashic material on animals.
