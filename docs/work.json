@@ -7,6 +7,8 @@
   "short_title": "*Zoologie des Talmuds*",
   "author": "Ludwig Lewysohn (1819–1901)",
   "status_label": "Complete",
+  "start": "preface.html",
+  "start_label": "the Preface",
   "summary": "German text and English translation of the 1858 study of the animals of the Talmud.",
   "base_edition": {
     "label": "Frankfurt am Main 1858",
